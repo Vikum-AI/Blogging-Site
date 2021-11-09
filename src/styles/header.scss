@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bg: #ffc116;
+
+header {
+  background: $bg;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6rem;
+  #medium-logo {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 4rem;
+      li {
+        list-style: none;
+        margin: 1.3rem;
+        margin-top: 1.4rem;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      button {
+        margin: 2rem;
+        background: black;
+        border: 1px solid black;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        height: 2.4rem;
+        border-radius: 100rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0.7rem;
+      }
+    }
+  }
+}

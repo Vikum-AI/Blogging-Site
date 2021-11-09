@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.trendingBlog {
+  margin-top: 2rem;
+}
+
+.trendingBlog .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.trendingBlog .author h4 {
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  font-weight: lighter;
+}
+
+.trendingBlog a {
+  text-decoration: none;
+  color: black;
+}
+
+.trendingBlog a h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.trendingBlog a .date {
+  font-weight: lighter;
+  color: gray;
+}
+/*# sourceMappingURL=trendingBlog.css.map */

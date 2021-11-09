@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blogs {
+  font-family: "Open sans", sans-serif;
+  width: 60rem;
+  display: flex;
+
+  margin: 2rem;
+  margin-bottom: 5rem;
+  background: whitesmoke;
+  border-radius: 1rem;
+  padding: 2rem;
+  .image img {
+    width: 82%;
+  }
+  .content {
+    .title {
+      display: flex;
+      margin-bottom: 1rem;
+      h3 {
+        margin-top: 0.2rem;
+        margin-left: 0.5rem;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+    }
+    .para {
+      h2 {
+        font-weight: bolder;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+      }
+      p {
+        color: gray;
+        margin-bottom: 0.5rem;
+      }
+    }
+    .date {
+      color: gray;
+      font-size: 0.8rem;
+      font-weight: lighter;
+    }
+  }
+}

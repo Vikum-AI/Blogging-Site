@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.trending {
+  margin: 2rem;
+  font-weight: 700;
+  font-family: "Open sans", sans-serif;
+  font-size: 0.8rem;
+  color: black;
+  .topic {
+    display: flex;
+    p {
+      margin-left: 0.5rem;
+    }
+  }
+  .blogs-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .blogs-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+}
